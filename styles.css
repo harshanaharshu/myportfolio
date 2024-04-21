@@ -1,0 +1,740 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.nav{
+    background-color:whitesmoke;
+    height:0px;
+    margin-top:30px;
+    
+}
+body{
+    min-height:90vh;
+    background-color: #bbbdbf;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(image6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+nav{
+    background-color: white;
+    box-shadow: 3px 3px rgb(0,0,0,0.1);
+   
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color:black;
+}
+.fontsize{
+    font-size: 50px;
+    font-family:'Bad Script', cursive;
+}
+nav a:hover{
+    background-color:white;
+
+}
+nav li:first-child{
+    margin-right: auto;
+
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgb(255, 255, 255, 0.2);
+    backdrop-filter:blur(10px);
+    box-shadow: -10px 0 10px rgba(133, 13, 13, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.sidebar li{
+    width: 100%;
+
+}
+.sidebar a{
+    width: 100%;
+
+}
+
+.menu-button{
+    display: none;
+}
+
+.aboutme{
+    padding:50px;
+    margin:150px 50px 50px 80px;
+    line-height:25px;  
+    word-spacing:4px;
+    height:auto;
+    width:80%;
+    color:black;
+    font-family:'Mate SC', serif;
+    font-size:19px;
+}
+.details{
+    color:white;
+    background: linear-gradient(rgba(27, 28, 29, 0.8),rgba(13, 13, 14, 0.8)),url('image6.jpg');
+    background-position:center;
+    background-size:cover;
+    height:auto;
+    width:40%;
+    padding:30px;
+    margin-top:-50px;
+    margin-bottom:-100px;
+    margin-left:130px;
+    line-height:30px;
+    font-size:20px;
+    font-family:'Mate SC', serif;
+}
+
+footer{
+    background-color:gainsboro;
+    height:8vh;
+    margin-top:200px;
+    text-align:center;
+    padding-top:25px;
+    color: black;
+    word-spacing:30px;
+
+}
+@media(max-width:1067px){
+
+    .aboutme{
+        padding:-20px -20px -20px -20px;
+        margin:120px 50px 50px 50px; 
+        font-size:18px;
+        align-items:center;
+        width:50%;
+        height: auto;
+    }
+
+    .details{
+        margin-left:100px;
+        
+    }
+}
+
+@media(max-width:950px){
+    .hideonmobile{
+        display:none;
+    }
+    .menu-button{
+        display: block;
+    }
+    .aboutme{
+        padding:-20px -20px -20px -20px;
+        margin:120px 50px 50px 50px; 
+        font-size:16px;
+        align-items: center;
+        width:50%;
+        height: auto;
+    }
+    .details{
+        font-size:18px;
+        margin-left:100px;
+        width:50%;
+        height:auto;
+    }
+}
+@media(max-width:600px){
+    .hideonmobile{
+        display:none;
+    }
+    .menu-button{
+        display: block;
+    }
+    .sidebar{
+        width: 50%;
+    }
+    .aboutme{
+        padding:-20px -20px -20px -20px;
+        margin:120px 50px 50px 50px; 
+        font-size:14px;
+        align-items:center;
+        width:50%;
+        height:auto;
+    }
+    .details{
+     font-size:14px;
+     margin-left:100px;
+     width: 50%;
+     height: auto;
+    }
+    
+}
+
+/*------------------------education.html---------------------*/
+
+.educadiv1{
+    height:auto;
+    width:100%;
+    margin-top:90px;
+    margin-bottom:-100px;
+    display:flex;
+    justify-content: space-between;  
+}
+.edufontsize{
+    font-size: 40px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.educationdiv{
+ height:50vh;
+ width:40%;
+ background: linear-gradient(#252a30,#404245,#1e2329);
+ margin:40px;
+ padding:20px;
+ padding-bottom:80px;
+ text-align: center;
+ border-radius:20px;
+}
+.educationdiv p{
+    font-size:15px;
+    text-align: start;
+    color:#d2d3d6;
+}
+.educationdiv h3{
+    color:white;
+
+}
+.educationdiv p i{
+    color: black;
+}
+
+.experiancediv{
+    height:50vh;
+    width:40%;
+    background: linear-gradient(#252a30,#404245,#1e2329);
+    margin:40px;
+    padding:20px;
+    padding-bottom:80px;
+    text-align: center;
+    border-radius: 20px;
+}
+.experiancediv p{
+    font-size: 15px;
+    text-align: start;
+    color: #d2d3d6;
+}
+.experiancediv h3{
+    color:white;
+}
+
+
+.educafooter{
+    background-color:#bbbdbf;
+    height:8vh;
+    margin-top:200px;
+    text-align:center;
+    padding-top:25px;
+    color: black;
+    word-spacing: 30px;
+
+}
+@media(max-width:500px){
+    .educationdiv p {
+            font-size:13px;
+        }
+}
+
+@media(max-width:600px){
+    .educadiv1{
+        display:block;
+        justify-content: space-between; 
+        height: auto;
+        width: auto;
+        padding: 20px 20px 20px 20px;   
+    }
+
+    .educationdiv p {
+        font-size:13px;
+    }
+    .educationdiv{
+        height:50vh;
+        width:auto;
+        padding-bottom:100px; 
+        
+          
+       }
+       
+    .experiancediv{
+           height:50vh;
+           width:auto;
+           padding-bottom:100px;
+           
+       }
+       .experiancediv p{
+        font-size: 13px;
+       }
+}
+
+@media(max-width:800px){
+    .educadiv1{
+        display:block;
+        justify-content: space-between; 
+        height: auto;
+        width: auto;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .educationdiv{
+        height:40vh;
+        width:auto;
+        padding-bottom: 100px;
+        
+       }
+       .educationdiv p {
+        font-size:13px;
+    }
+       
+       .experiancediv{
+           height:40vh;
+           width:auto;
+           padding-bottom: 100px;
+       }
+       .experiancediv p{
+        font-size: 13px;
+       }
+
+    }
+
+    @media(max-width:950px){
+
+        .educationdiv{
+            
+            padding-bottom:100px;
+            
+            
+           }
+           
+           .experiancediv{
+              
+               padding-bottom:100px;
+           }
+
+    }
+
+/*------------------------contact.html---------------------*/
+     
+    
+    .contactfontsize{
+        font-size:40px;
+        font-family:'Noto Sans', sans-serif;
+        margin-top:-60px;
+        padding-left:30px;  
+    }
+    .contact{
+        height:60vh;
+        width:auto;
+        padding:60px;
+        padding-left:20px;
+        margin-top:100px;
+        margin-bottom:-80px;
+        display: flex;
+        justify-content:space-around;
+         
+    }
+
+    .contactdiv1{ 
+       padding-top:50px;
+       font-size:20px;
+       line-height:25px;
+       padding-right: 200px;
+       color: black;
+       
+       
+    }
+    .contactdiv1 h4{
+        font-size:35px;
+        margin-top:-50px;
+        margin-bottom:50px;
+        font-family:'Bad Script', cursive;
+    }
+
+    .contactdiv2{
+        font-size: 20px;
+        margin-left: -300px;
+    }
+    #form1{
+        font-size: 23px;
+        align-items: start;
+    }
+    #name{
+        font-size: 20px;
+        padding-left:20px;
+        padding:9px;
+        padding-right:100px;
+        border-color:whitesmoke;
+        background-color:white;
+        border-radius: 10px;  
+        border-width:1px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    #phone{
+        font-size: 20px;
+        padding-left:20px;
+        padding-right:100px;
+        padding:9px;
+        border-color:white;
+        background-color:white;
+        border-radius: 10px;
+        border-width:1px;
+        font-family: 'Quicksand', sans-serif;
+    }
+        
+    #email{
+        font-size: 20px;
+        padding-left:20px;
+        padding-right:100px;
+        padding:9px;
+        border-color:white;
+        background-color:white;
+        border-radius: 10px;
+        border-width:1px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    #textarea{
+        font-size: 20px;
+        padding-left:20px;
+        padding-right:100px;
+        padding:9px;
+        border-color:white;
+        background-color:white;
+        border-radius: 10px;
+        border-width:1px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    #button{
+      font-size:20px;
+      padding:8px 30px;
+      margin-top:-20px;
+      align-items: center;
+      border-radius: 20px;
+      border-color: whitesmoke;
+      border-width:0px;
+      background-color:rgb(37, 34, 34);
+      color: white;
+     font-family: 'Quicksand', sans-serif;
+
+    }
+    #button:hover{
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    .contactfooter{
+        background-color:#bbbdbf;
+        height:8vh;
+        
+    }
+    @media(max-width:600px){
+        .contact{
+
+            display:block;
+            justify-content: space-around;
+            padding:40px;  
+            height:90vh;  
+            margin-bottom:-150px;
+        }
+        .contactdiv2{
+            font-size:10px;
+            margin-left: 0px;
+            margin-top:40px;
+        }
+
+        .contactdiv2 p{
+            font-size:14px;
+        }
+        #form1{
+            font-size: 20px;
+            align-items:start;
+        }
+        #name{
+            font-size: 15px;
+        }
+        #phone{
+            font-size:15px;
+        }
+        #email{
+            font-size: 15px;
+        }
+        #textarea{
+            font-size: 15px;
+        }
+        #button{
+            font-size: 13px;
+        }
+        .contactdiv1{
+            
+            font-size:14px;
+            margin-top:-60px;
+            margin-left:5px; 
+         }
+         
+         .contactdiv1 h4{
+            font-size:15px;
+            margin-top:5px;
+            margin-bottom:5px;
+            padding-top:-300px;
+            font-family:'Bad Script', cursive;
+        }
+        .contactfontsize{
+            font-size:30px;
+        }
+    }
+
+    @media(max-width:950px){
+        .contact{
+            display: block;
+            height: auto;
+        }
+        
+        .contactdiv2{
+            font-size:10px;
+            margin-left: 0px;
+            margin-top:40px;
+        }
+        .contactdiv2 p{
+            font-size:14px;
+            
+        }
+         
+    }
+
+    /*------------------------skills.html---------------------*/
+
+
+.skilldiv{
+    height:auto;
+    width:80%;
+    padding:50px;
+    margin-top:100px;
+    margin-bottom:-80px;
+}
+
+.skilldiv h3{
+    font-size: 25px;
+    text-align: center; 
+    margin-bottom:40px;  
+    font-family: 'Bad Script', cursive;
+}
+
+.skills-area{
+    display:flex;
+    flex-direction:column;
+    padding-left:20px;
+    
+    
+}
+.skills{
+    position:relative;
+    margin-bottom:40px;
+ }
+    .skill-title{
+        font-size:25px;
+        margin-bottom:10px;
+        color:black;
+    }
+    .skill-bar{
+        width:90%;
+        background-color:black;
+        height:15px;
+        z-index:-1;
+        border-radius:100px;
+        position:absolute;
+    }
+    .skill-fill{
+        background-color:white;
+        height:15px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 30px;
+        overflow: hidden;
+    }
+    .skill-percent{
+        font-size:15px;
+        
+    }
+    .html{
+        animation: html 5s;
+        width:90%;
+    }
+    .css{
+        animation: css 5s;
+        width: 80%;
+    }
+    .js{
+        animation: js 5s;
+        width:20%;
+    }
+    .bootsrap{
+        animation: bootsrap 5s;
+        width:80%;
+    }
+
+    .jquerry{
+        animation: jquerry 5s;
+        width:20%;
+    }
+
+    .vscode{
+        animation: vscode 5s;
+        width:80%;
+    }
+
+    .msexcel{
+        animation: msexcel 5s;
+        width:50%;
+    }
+
+    .msword{
+        animation: msword 5s;
+        width:50%;
+    }
+
+
+    @keyframes html{
+        from{
+            width: 0;
+        }
+        to{
+            width:90%;
+        }
+    }
+    @keyframes css{
+        from{
+            width: 0;
+        }
+        to{
+            width: 80%;
+        }
+    }
+    @keyframes js{
+        from{
+            width: 0;
+        }
+        to{
+            width:20%;
+        }
+    }
+
+    @keyframes bootsrap{
+        from{
+            width: 0;
+        }
+        to{
+            width:80%;
+        }
+    }
+
+    @keyframes jquerry{
+        from{
+            width: 0;
+        }
+        to{
+            width:20%;
+        }
+    }
+
+    @keyframes vscode{
+        from{
+            width: 0;
+        }
+        to{
+            width:80%;
+        }
+    }
+
+    @keyframes msexcel{
+        from{
+            width: 0;
+        }
+        to{
+            width:50%;
+        }
+    }
+
+    @keyframes msword{
+        from{
+            width: 0;
+        }
+        to{
+            width:50%;
+        }
+    }
+
+    @media(max-width:600px){
+        .skills-area{
+            padding: 0px;
+        }
+        .skilldiv h3{
+            font-size:18px;  
+        }
+        .skill-title{
+            font-size:20px;
+            margin-bottom:6px;
+        }
+        .skill-bar{
+            width:84%;
+            height:10px;
+            
+        }
+        .skill-fill{
+            height:10px;  
+        }
+        .skill-percent{
+            font-size:10px;
+            
+        }
+    }
+
+    @media(max-width:950px){
+        .skills-area{
+            padding: 0px;
+        }
+        .skilldiv h3{
+            font-size:25px;  
+        }
+        .skill-title{
+            font-size:22px;
+            margin-bottom:9px;
+        }
+        .skill-bar{
+            width:86%;
+            height:13px;
+            
+        }
+        .skill-fill{
+            height:13px;  
+        }
+        .skill-percent{
+            font-size:12px;
+            
+        }
+    }
